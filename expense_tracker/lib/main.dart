@@ -1,3 +1,4 @@
+import 'package:expense_tracker/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,10 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Expense Tracker',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Scaffold(
-        body: Center(child: Text('Welcome to Expense Tracker')),
-      ),
+
+      theme: ThemeData.dark(),
+      home: const SplashScreen(),
     );
   }
 }
