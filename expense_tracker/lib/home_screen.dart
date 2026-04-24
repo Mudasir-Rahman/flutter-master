@@ -88,6 +88,8 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
+              ///////////////////////
+              //////////////////////
               'Morning, Mudaser',
               style: TextStyle(
                 color: _white,
